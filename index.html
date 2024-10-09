@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark py-4">
+    <div class="container">
+      <img src="	https://routeweather.netlify.app/images/logo.png" alt="" class="me-4" />
+      <a class="navbar-brand text-white fs-5" href="#">
+        Weather</br>tagline goes here</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedontent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3  ">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-4 text-white" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-4 text-white" aria-disabled="true">Live </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-4 text-white" aria-disabled="true">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-4 text-white" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="home py-5">
+    <div class="container pt-5">
+      <div class="inputfind">
+        <input type="search" id="searchInput" class="form-control py-3 rounded-5" placeholder="find your location...">
+        <button class="btn btn-info px-5 py-2 rounded-5" id="btnFind">find</button>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+
+          <div class="header text-white d-flex justify-content-between mt-4 px-2 py-3 text-center">
+            <h6 id="day">wenesday</h6>
+            <h6 id="month">october</h6>
+          </div>
+          <div class="contant text-white ">
+            <h3 class="py-3 px-3" id="name">cairo</h3>
+            <h1 class="py-3 fs-1 ps-5" id="degree1">33oC</h1>
+            <div id="icon1">
+              <img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" />
+            </div>
+            <h6 class="text-info ps-3 pt-4" id="text1">clear</h6>
+            <div class="d-flex  pt-3">
+              <div class="d-flex justify-content-start ps-3">
+                <i class="fa-solid fa-umbrella fs-5 px-1 " style="color: #c1c1c3;"></i>
+                <h6 id="text4">20%</h6>
+              </div>
+              <div class="d-flex justify-content-start ps-3">
+                <i class="fa-solid fa-wind fs-5 px-1 " style="color: #a1a3a5;"></i>
+                <h6 id="text5">18km/h</h6>
+              </div>
+              <div class="d-flex justify-content-start ps-3">
+                <i class="fa-regular fa-compass fs-5 px-1" style="color: #808185;"></i>
+                <h6 id="text6">East</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="header2 text-white mt-4 px-2 py-3 text-center">
+            <h6 id="day2">Thursday</h6>
+          </div>
+          <div class="contant2 text-white py-3 ">
+            <div class="d-flex justify-content-center align-items-center pt-5" id="icon2">
+              <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" />
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center py-4">
+              <h5 id="degree2">33.8oC
+              </h5>
+              <h5 id="degree3">22.5o
+              </h5>
+              <h6 class="text-info text-center py-5" id="text2">sunny</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="header text-white mt-4 px-2 py-3 text-center">
+            <h6 id="day3">Friday</h6>
+          </div>
+          <div class="contant text-white py-3">
+            <div class="d-flex justify-content-center align-items-center pt-5" id="icon3">
+              <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" />
+            </div>
+        
+          <div class="d-flex flex-column justify-content-center align-items-center py-4">
+
+            <h5 id="degree4">34.2oC
+            </h5>
+            <h5 id="degree5">21.9o
+            </h5>
+            <h6 class="text-info text-center py-5" id="text3">sunny</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="home2 py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="inputfind2 py-4">
+            <input type="search" id="find" class="form-control py-3 rounded-5 w-75 ms-5"
+              placeholder="Enter your name to subscibe...">
+            <button class="btn btn-info px-5 py-2 text-white rounded-5">subscibe</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icons d-flex pt-4 ">
+            <i class="fa-brands fa-facebook-f fs-4 p-2" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-twitter fs-4 p-2 ms-2 " style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-google fs-4 p-2 ms-2" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-pinterest fs-4 p-2 ms-2" style="color: #74C0FC;"></i>
+          </div>
+        </div>
+      </div>
+      <div class="paragraph py-3 ps-3 ">
+        <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

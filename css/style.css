@@ -1,0 +1,115 @@
+img{
+    width: 60px;
+}
+
+.home{
+    background-image:url(../imges/93b89528-dc59-4340-8aeb-bbddbd4f1582.jpg) ;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.form-control:focus{
+    border: none !important;
+    box-shadow: none !important;
+    background-color:  rgb(30, 32, 43) !important;
+    color: white !important;
+}
+input :placeholder-shown{
+    color: white;
+    border: none !important;
+}
+.form-control::placeholder{
+    color: #ced4ce;
+}
+form input{
+    border: none;
+    outline: none;
+}
+ .form-control{
+    background-color: rgb(30, 32, 43);
+    border: none !important;
+    
+} 
+.inputfind{
+    position: relative;
+}
+.inputfind button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1%;
+}
+.header{
+    background-color:rgb(45 48 61) ;
+}
+.contant{
+    background-color: #323544;
+}
+.contant h3{
+   font-size: 24px;
+   font-weight: 400;
+}
+.contant h1{
+ font-size: 90px !important;
+}
+.header2{
+    background-color: #1f212b ;
+}
+.contant2{
+    background-color: #222530 ;
+}
+.inputfind2{
+    position: relative;
+}
+.inputfind2 button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20%;
+}
+.home2{
+    background-color: #262936;
+}
+.icons i{
+    background-color: rgba(0,0, 0, 0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.paragraph p{
+ color:#bfc1c8 ;
+}
+.icons i{
+    transition: .5s ;
+}
+.icons i:hover{
+    background-color: #009ad8;
+    color: white !important;
+}
+ul li a:hover{
+     color: #009ad8 !important;
+ 
+    
+}
+ul li a{
+    background-color: #009ad8;
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
